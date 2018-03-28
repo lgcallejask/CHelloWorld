@@ -1,5 +1,5 @@
 //Codigo que crea archivo
-// int main()
+int main()
 {    
     FILE *opening;
     opening = fopen("output.txt","w");
