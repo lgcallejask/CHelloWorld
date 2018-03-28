@@ -1,8 +1,8 @@
-#include<stdio.h>    
-int main()
+//Codigo que crea archivo
+// int main()
 {    
     FILE *opening;
-    opening = fopen("hello.txt","w");
+    opening = fopen("output.txt","w");
     fprintf(opening,"Hello world!");     
     fclose(opening);
     printf("Writing to the file was successful.\n");
