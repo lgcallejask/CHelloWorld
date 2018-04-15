@@ -1,0 +1,5 @@
+hello3.i: In function 'main':
+hello3.i:4:2: warning: implicit declaration of function 'prontf' [-Wimplicit-function-declaration]
+  prontf("La respuesta es %d\n");
+  ^~~~~~
+hello3.i:4:2: error: expected declaration or statement at end of input
